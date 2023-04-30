@@ -99,7 +99,8 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
 
-	ofBackgroundGradient(100, 0);
+//	ofBackgroundGradient(100, 0);
+    ofBackground(10, 10, 10);
 
 	// if image exists, draw it
 	if(receivedImage.getWidth() > 0){
